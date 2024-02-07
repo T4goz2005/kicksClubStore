@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/CssGeral/css/style.css" />
+    <link rel="stylesheet" href="/userAccount/Resgister/register.css">
+    <link rel="stylesheet" href="/CssGeral/css/responsive.css" />
+    <link rel="icon" href="/ImgGeral/img/abaLOGO.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Kick's Club Store</title>
+  </head>
+  <body>
+    <section id="header">
+      <a href="/index.html"><img class="logo" src="/ImgGeral/img/logoMainimports-04.png" /></a>
+
+      <div class="menu">
+        <ul id="navbar">
+          <li><a  href="/index.html">Principal</a></li>
+          <li><a href="/HtmlGeral/htmlBrend/shopJordan.html">Marcas</a></li>
+          <li><a href="/About/about.html">Informações</a></li>
+          <li><a class="active" href="#">Registrar-se</a></li>
+          <li><a href="/userAccount/login/login.html">Login</a></li>
+          <li>
+            <a href="/cart/cart.html"
+              ><i
+                id="lg-bag"
+                class="fas fa-shopping-bag"
+                style="color: #000000"
+              ></i
+            ></a>
+          </li>
+          <a href="#" id="close"><i class="fas fa-times"></i></a>
+        </ul>
+      </div>
+
+
+      <div id="mobile">
+        <a href="/cart/cart.html"
+          ><i class="fas fa-shopping-bag" style="color: #000000"></i
+        ></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+
+
+    <div class="containerRegister">
+        <div class="form-box">
+            <h1>Registrar-se</h1>
+            <form>
+                <div class="input-group">
+                    <div class="input-field">
+                        <i class="fas fa-user" style="color: #000000;"></i>
+                        <input type="text" placeholder="Nome">
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fas fa-envelope" style="color: #000000;"></i>
+                        <input type="email" placeholder="E-Mail">
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fas fa-key" style="color: #000000;"></i>
+                        
+                        <input id="senha" type="password" placeholder="Senha">
+
+                        <button type="button"><a href="#" onclick="togglePassword()"><i class="fas fa-eye" style="color: #000000;"></i></a></button>
+                    </div>
+                </div>
+                <div class="btn-field">
+                    <button type="submit">Registrar-se</button>
+                    <button type="button" class="disable" onclick="window.location.href='/userAccount/login/login.html';">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    
+    <script src="/js/scriptHAMBURGUER.js"></script>
+
+    <script>
+        function togglePassword() {
+          var senhaInput = document.getElementById("senha");
+          
+          // Alterna entre type "password" e "text"
+          senhaInput.type = (senhaInput.type === "password") ? "text" : "password";
+        }
+      </script>
+  </body>
+</html>

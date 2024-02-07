@@ -1,0 +1,433 @@
+@media (max-width:660px) {
+
+    #header {
+        height: 100px;
+    }
+
+    #header img {
+        width: 140px;
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #F5F4F7;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01);
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
+
+    #navbar.active {
+        right: 0px;
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile i {
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #000000;
+        font-size: 24px;
+    }
+
+    #lg-bag {
+        display: none;
+    }
+
+    #hero {
+        display: flex;
+        background: rgb(255, 255, 255);
+        background: linear-gradient(#fff);
+        background-position: initial;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 60vh;
+        border: 20px solid rgb(0, 0, 0);
+        padding: 0 80px;
+        text-align: center;
+        align-items: center;
+    }
+
+    #hero h2 {
+        display: none;
+    }
+
+    #hero .titleMobile {
+        display: flex;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    #hero h4 {
+        display: flex;
+        text-align: center;
+        color: red;
+    }
+
+    #hero p {
+        text-align: center;
+        color: #000000;
+    }
+
+
+    #feature {
+        justify-content: center;
+        background-color: #fff;
+    }
+
+    #feature .fe-box {
+        margin: 15px 15px;
+        background-color: #F5F4F7;
+    }
+
+    #product1 .pro-container {
+        justify-content: center;
+    }
+
+    #product1 .pro {
+        margin: 15px;
+    }
+
+    #banner {
+        border-top: 0px solid;
+        border-bottom: 9px solid #000;
+        background-image: none;
+        background-color: red;
+    }
+
+    #banner h4 {
+        display: none;
+    }
+
+    #banner h2 {
+        font-size: 20px;
+    }
+
+    #sm-banner {
+        border-top: 10px solid #000;
+        display: flex;
+        flex-direction: row;
+        align-items: initial;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #000;
+    }
+
+    #sm-banner .banner-box {
+        margin: 10px;
+        padding: 12px;
+        border: 1px solid #000;
+        background-size: 0px;
+        width: 145px;
+    }
+
+    #sm-banner #yeezy {
+        margin: 10px;
+        padding: 0px;
+        background-size: 75px;
+    }
+
+    #sm-banner #nike {
+        margin: 10px;
+        padding: 0px;
+        background-size: 75px;
+    }
+
+    #sm-banner #airJordan {
+        margin: 10px;
+        padding: 0px;
+        background-size: 75px;
+    }
+
+    #sm-banner #adidas {
+        margin: 10px;
+        padding: 0px;
+        background-size: 75px;
+    }
+
+    #sm-banner #vans {
+        text-align: center;
+        background-size: 110px;
+    }
+
+    .section-p1 {
+        padding: 10px;
+    }
+
+    .section-p1 #install h4 {
+        display: none;
+    }
+
+    .section-p1 #install p {
+        display: none;
+    }
+
+    #header {
+        padding: 10px 30px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    #hero {
+        padding: 0 20px;
+        background-position: 55%;
+    }
+
+    #feature {
+        justify-content: space-between;
+    }
+
+    #feature .fe-box {
+        width: 155px;
+        margin: 0 0 15px 0;
+    }
+
+    #product1 .pro {
+        width: 100%;
+    }
+
+    #banner {
+        height: 40vh;
+    }
+
+    #sm-banner .banner-box {
+        height: 40vh;
+    }
+
+    /*Pro details item*/
+
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prodetails .single-pro-image {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    #prodetails .single-pro-details {
+        width: 100%;
+    }
+
+
+    /*RESPONSIVE AREA FOOTER CELLPHONE*/
+    .section-p1 {
+        background-color: #fff;
+    }
+
+    .section-p1 .col {
+        width: 100%;
+
+    }
+
+
+    .section-p1 .col.install {
+        text-align: center;
+        display: block;
+    }
+
+    .section-p1 .col.install .row {
+        display: none;
+    }
+
+    .section-p1 .col.install .appP {
+        display: none;
+    }
+
+    .section-p1 #sobre-nos {
+        display: none;
+    }
+
+    .section-p1 .hr-suporte {
+        font-size: 14px;
+        padding: 10px;
+        color: red;
+    }
+
+    footer {
+        background-color: #fff;
+    }
+
+    /*RESPONSIVE AREA FOOTER CELLPHONE*/
+
+
+    /*RESPONSIVE AREA CART*/
+
+    #cart-add {
+        flex-direction: column;
+    }
+
+    #cart-add #subtotal {
+        width: 100%;
+        padding: 20px;
+    }
+
+    #cupon input{
+        padding: 10px 20px;
+        outline: none;
+        width: 100%;
+        margin-bottom: 14px;
+        margin-right: 10px;
+        border: 1px solid #e2e9e1;
+    }
+
+
+    /*ABOUT AREA*/
+
+    .informacoes-sobre-mim {
+        font-size: 30px;
+    }
+
+    section.duvidas .texto{
+        text-align: left;
+        display: flex;
+        align-items: center;
+    }
+
+    /*ABOUT AREA*/
+
+}
+
+
+
+
+@media (max-width: 477px) {
+
+    body {
+        background-color: #F5F4F7;
+    }
+
+    .section-p1 {
+        padding: 20px;
+    }
+
+    #header {
+        padding: 10px 30px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    #hero {
+        display: flex;
+        padding: 0 20px;
+        background-position: 55%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #sm-banner .banner-box {
+        background-size: 30px;
+    }
+
+    #hero button {
+        align-items: end;
+    }
+
+    #feature {
+        justify-content: space-between;
+    }
+
+    #feature .fe-box {
+        width: 155px;
+        margin: 0 0 15px 0;
+    }
+
+    #product1 .pro {
+        width: 100%;
+    }
+
+    #banner {
+        display: none;
+    }
+
+    #sm-banner {
+        margin-top: 40px;
+    }
+
+    #sm-banner .banner-box {
+        height: 90px;
+    }
+
+    
+}
+
+
+@media(max-width: 1300px){
+
+    /*Hero*/
+
+    #hero{
+        height: 60vh;
+        background-size: contain;
+        background-position: center;
+    }
+
+
+    #hero h2{
+        text-align: left;
+        line-height: 45px;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    #hero p{
+        font-size: 20px;
+    }
+
+    #hero span{
+        font-size: 30px;
+    }
+    
+    /*Hero*/
+
+    /*Banner 5%*/
+
+    #banner h4{
+       font-size: 20px;
+    }
+
+    /*Banner 5%*/
+
+
+    .section-p1 {
+        padding: 40px 20px;
+    }
+}
+
+
