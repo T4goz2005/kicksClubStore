@@ -390,7 +390,7 @@
 
 @media(max-width: 1300px){
 
-    /*Hero*/
+    /*Hero  NOTEBOOK*/
 
     #hero{
         height: 60vh;
@@ -414,20 +414,43 @@
         font-size: 30px;
     }
     
-    /*Hero*/
+    /*Hero NOTEBOOK*/
 
-    /*Banner 5%*/
 
+
+    /*SM Banner  NOTEBOOK*/ 
     #banner h4{
        font-size: 20px;
     }
 
-    /*Banner 5%*/
+    
+    #sm-banner .banner-box{
+        background-size: 170px;
+    }
+    #sm-banner #yeezy {
+        margin: 10px;
+        padding: 0px;
+        background-size: 170px;
+    }
+
+    #sm-banner #nike {
+        margin: 10px;
+        padding: 0px;
+        background-size: 170px;
+    }
+
+
+    #sm-banner #vans {
+        text-align: center;
+        background-size: 170px;
+    }
 
 
     .section-p1 {
         padding: 40px 20px;
     }
+
+    /*SM Banner  NOTEBOOK*/ 
 }
 
 
